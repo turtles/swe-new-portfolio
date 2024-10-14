@@ -10,11 +10,11 @@ const Credits = (props) => {
                     The inspiration for the design comes from <a href="https://www.sarahdayan.dev" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Sarah Dayan </a> 
                     and <a href="https://brittanychiang.com" target="_blank" rel="noopener noreferrer" className="text-on-background transition-all hover:text-primary-500">Brittany Chiang</a>. 
                 </div>
-                <div className='flex flex-row justify-between'>
+                {/* <div className='flex flex-row justify-between'>
                     <a href="/imprint" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">Imprint</a>
                     <a href="/privacy" rel="noopener noreferrer" className="scroll-auto transition-all hover:text-on-background">Privacy Statement</a>
                     <span>{props.data.name} | {(new Date()).getFullYear()}</span>
-                </div>
+                </div> */}
             </div>
         </div>
     )

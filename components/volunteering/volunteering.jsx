@@ -1,10 +1,11 @@
 import React from "react";
 import VolunteeringItem from "./volunteering-item";
+import SectionTitle from '../section-title';
 
 const Volunteering = (props) => {
     return (
         <div data-section id='volunteering' className='mb-16'>
-            <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Volunteering</h2>
+            <SectionTitle title={'Volunteering'} />
             {props.data.map(function(object, index){
                 return <VolunteeringItem  
                     key={`${object.position}+${object.startDate}`}

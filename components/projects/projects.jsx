@@ -1,10 +1,11 @@
 import React from "react";
 import ProjectItem from "./project-item";
+import SectionTitle from '../section-title';
 
 const Projects = (props) => {
     return (
         <div data-section id='projects' className='mb-16'>
-            <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Projects</h2>
+            <SectionTitle title={'Projects'} />
             <div className='grid grid-cols-2 gap-2'>
                 {props.data.map(function(object, index){
                     return <ProjectItem

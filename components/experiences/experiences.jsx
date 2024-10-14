@@ -1,10 +1,12 @@
 import React from "react";
 import ExperienceItem from "./experience-item";
+import SectionTitle from '../section-title';
 
 const Experiences = (props) => {
     return (
         <div data-section id='experiences' className='mb-16'>
-            <h2 className='mb-8 visible lg:invisible font-medium tracking-widest'>Experiences</h2>
+            <SectionTitle title={'Experiences'} />
+            <div className="flex-col">
             {props.data.map(function(object, index){
                 return <ExperienceItem  
                     key={`${object.title}+${object.startDate}`}
@@ -17,7 +19,7 @@ const Experiences = (props) => {
                     logo={object.logo}
                     skills={object.skills}
                 />
-            })}
+            })}</div>
         </div>
     )
 }

@@ -1,99 +1,71 @@
 {
     "general": {
-        "name": "Name Surname",
-        "headline": "Short headline about yourself",
+        "name": "Leah Sandacz",
+        "headline": "Fullstack Software Engineer with 8+ years experience",
         "about": [
-            "Hey there! 👋",
-            "This should be a first short paragraph about yourself. Tell us something about yourself, your education or your career.",
-            "And why not adding a second paragraph? Then you can tell us more about your hobbies and your life. Some people will read it and be happy to get to know you a little better."
+            "Leah is a lifelong programmer with a focus on web applications. Originally self taught before earning a BS in Computer Science, managers have commonly valued her efficency of output and autonomy in learning new stacks and skills.",
+            "In her personal life, she enjoys making web games, watching Anime, running, playing piano, and visiting conventions."
         ],
         "socials": {
-            "email": "example@mail.com",
-            "linkedin": "https://www.linkedin.com/",
-            "github": "https://github.com/"
+            "email": "leahsandacz@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/leah-sandacz-a9564b55/",
+            "github": "https://github.com/turtles"
         }
     },
     "experiences": [
         {
-            "title": "Position Title",
-            "company": "Company Name",
+            "title": "Software Engineer",
+            "company": "Google Search",
             "href": "",
-            "startDate": "10/2023",
-            "endDate": "CURRENT",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "startDate": "08/2019",
+            "endDate": "03/2024",
+            "description": "Modernized design of Google Search on mobile web browsers. Upgraded components to support dark theme. Implemented dark theme widgets such as the switcher, theme select and promos. Upgraded common UI to reusable components, and built a service for mass tagging and tracking components so they can be componentized.",
+            "logo": "/logos/google-logo-w.png",
+            "skills": ["Javascript", "HTML/CSS", "Java", "Python", "Metric analysis", "UX", "Frontend"]
         },
         {
-            "title": "Position Title",
-            "company": "Company Name",
-            "href": "",
+            "title": "Software Engineer",
+            "company": "Gmail Data Layer",
+            "href": ".",
             "startDate": "01/2023",
             "endDate": "09/2023",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2"]
+            "description": "Client-side server infrastructure and build config. Designed the launch that added additional canary stages during deployment, which brought Gmail up to FedRAMP compliance. The launch was used by all other teams. Wrote presubmits, unit tests, and CLI tools that facilitated experiment cleanup, and ensured build safety.",
+            "logo": "/logos/google-logo-w.png",
+            "skills": ["CI/CD", "Python", "Java", "Architecture", "Testing", "Backend"]
         },
         {
-            "title": "Position Title",
-            "company": "Company Name",
+            "title": "React Developer",
+            "company": "The Virtual Forge",
             "href": "",
             "startDate": "01/2022",
             "endDate": "12/2022",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1"]
+            "description": "Built frontend web applications in React for enterprise clients. Developed an app for searching, viewing and aggregating reports for a learning management system. Involved analyzing requirements, designing an API, building a new application upon an existing codebase, and designing scalable architecture.",
+            "logo": "/logos/vf-logo-w.png",
+            "skills": ["React", "Javascript", "HTML/CSS", "Frontend", "Startup"]
         },
         {
-            "title": "Position Title",
-            "company": "Company Name",
+            "title": "Junior Software Developer",
+            "company": "Hyland Software",
             "href": "",
             "startDate": "01/2021",
             "endDate": "12/2021",
-            "description": "This is a short description of your role.",
-            "logo": "/logos/vercel-white.png",
-            "skills": ["Skill 1", "Skill 2", "Skill 3"]
+            "description": "Contributed software defect fixes, enhancements, and unit tests in an agile environment for the Unity Client, a desktop client application for OnBase written in C# and WPF. Required modifying and debugging service methods in the application server and considering the impact of the changes to other teams. Wrote NUnit tests for each changeset. Built an administration settings dialog for the Document Tracking module.",
+            "logo": "/logos/hyland-logo.png",
+            "skills": ["C#", "WPF", "NUnit", "Testing", "Frontend"]
         }
     ],
     "education": [
         {
-            "subject": "University Subject",
-            "degree": "Master of Science",
-            "university": "University Name", 
-            "href": "",
-            "startDate": "2022", 
-            "endDate": "NOW", 
-            "description": "Short description of your degree."
-        },
-        {
-            "subject": "University Subject",
+            "subject": "Computer Science & Engineering",
             "degree": "Bachelor of Science",
-            "university": "University Name", 
+            "university": "Ohio State University", 
             "href": "",
-            "startDate": "2017", 
-            "endDate": "2020", 
-            "description": "Short description of your degree."
+            "startDate": "2011", 
+            "endDate": "2015", 
+            "description": "Computer science degree with additional engineering courses."
         }
     ],
     "volunteering": [
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
-        {
-            "position": "Position Name",
-            "event": "Event Name",
-            "organisation": "Organisation Name",
-            "href": "",
-            "startDate": "2022",
-            "endDate": "NOW",
-            "description": "Short description of your role at the event."
-        },
         {
             "position": "Position Name",
             "event": "Event Name",
@@ -106,25 +78,11 @@
     ],
     "projects": [
         {
-            "name": "two-column-portfolio",
-            "framework": "next.js",
-            "description": "A simple two-column portfolio template that is easy and quick to customize for your own purposes. Mobile friendly.",
-            "href": "https://github.com/karlgrossmann/two-column-portfolio",
-            "stars": "0"
-        },
-       {
-            "name": "example-project",
+            "name": "Tokyo Olympic Games Google Doodle",
             "framework": "javascript",
-            "description": "Short description of your project.",
-            "href": "",
-            "stars": "2,712"
-       },
-       {
-        "name": "example-project-2",
-        "framework": "flutter",
-        "description": "Short description of your project.",
-        "href": "",
-        "stars": "1,999"
-        } 
+            "description": "(20% Project) - Built the climbing mini-game in the 2020 Tokyo Summer Olympics Google Doodle promotion. Featured on Google's homepage.",
+            "href": "https://doodles.google/doodle/doodle-champion-island-games-begin/",
+            "stars": "0"
+        }
     ]
 }

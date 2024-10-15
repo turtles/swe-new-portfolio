@@ -3,7 +3,7 @@
         "name": "Leah Sandacz",
         "headline": "Fullstack Software Engineer with 8+ years experience",
         "about": [
-            "Leah is a lifelong programmer with a focus on web applications. Originally self taught before earning a BS in Computer Science, managers have commonly valued her efficency of output and autonomy in learning new stacks and skills.",
+            "Leah is a lifelong programmer with a focus on web applications. Originally self taught before earning a BS in Computer Science, managers have commonly valued her efficiency of output and autonomy in learning new stacks and skills.",
             "In her personal life, she enjoys making web games, watching Anime, running, playing piano, and visiting conventions."
         ],
         "socials": {
@@ -69,7 +69,7 @@
         {
             "position": "Position Name",
             "event": "Event Name",
-            "organisation": "Organisation Name",
+            "organisation": "Organization Name",
             "href": "",
             "startDate": "2022",
             "endDate": "NOW",
